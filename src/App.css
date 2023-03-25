@@ -1,0 +1,50 @@
+*{
+  outline: 1px solid red;
+}
+.parent{
+  display: flex;
+  width:100vw;
+  height: 100vh;
+  justify-content: center;
+}
+
+.heading{
+  font-size: 2rem;
+  font-weight: bold;
+  
+  padding-bottom: 5%;
+}
+
+.sub-heading{
+  font-size: 1rem;
+  font-weight: 700;
+  
+  padding-bottom: 5%;
+}
+
+.nav {
+  flex: 0.2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding-left: 2%;
+}
+
+.options{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #9c9da2;
+}
+
+.content{
+  flex: 1;
+}
+
+.content-heading{
+  font-size: 1.5rem;
+  font-weight: 600;
+  
+  padding-top: 2%;
+  padding-left: 3%;
+}
